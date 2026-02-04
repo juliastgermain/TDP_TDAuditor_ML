@@ -41,18 +41,20 @@ By training logistic regression models on TDAuditor's quality control metrics, w
 
 *Workflow showing data preprocessing, instrument integration, deconvolution pipelines, and ML model training*
 
+
 ## 📂 Project Structure
 ```
 TDP_TDAuditor_ML/
-├── match_and_annotate_hits.py    # Data preprocessing & hit annotation
-├── train_logit_model.py          # ML model training & prediction
-├── plot_model_graphs.py          # Visualization & analysis
+├── src/
+│   ├── match_and_annotate_hits.py    # Data preprocessing & hit annotation
+│   ├── train_logit_model.py          # ML model training & prediction
+│   └── plot_model_graphs.py          # Visualization & analysis
 ├── images/
-│   └── Thesis_workflow.png       # Pipeline diagram
+│   └── Thesis_workflow.png           # Pipeline diagram
+├── results/
 ├── requirements.txt
 └── README.md
 ```
-
 ## 🚀 Quick Start
 
 ### Installation
